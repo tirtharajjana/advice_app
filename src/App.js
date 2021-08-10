@@ -7,7 +7,7 @@ function App() {
 
 
   const fetchAdvice = () => {
-    console.log('call');
+    // console.log('call');
     axios
       .get("https://api.adviceslip.com/advice")
       .then((res) => {
